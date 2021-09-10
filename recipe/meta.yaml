@@ -10,7 +10,7 @@ source:
   sha256: fd23eb5f6f986dcc7e708307355ba3289abe03cc381fc47a80bca4a50aa6b834
 
 build:
-  number: 0
+  number: 1
   run_exports:
     - {{ pin_subpackage("libdaemon", max_pin="x.x.x") }}
   skip: true  # [win]
@@ -50,4 +50,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - andfoy
     - duncanmmacleod
