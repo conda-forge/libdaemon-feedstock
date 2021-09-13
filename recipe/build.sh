@@ -7,7 +7,7 @@ pushd _build
 
 EXTRA_FLAGS=""
 if [[ $(arch) == "aarch64" ]]; then
-	EXTRA_FLAGS="--build=aarch64-unknown-linux-gnu"
+	EXTRA_FLAGS="--build=aarch64-unknown-linux-gnu --target=aarch64-unknown-linux-gnu"
 fi
 
 # configure
